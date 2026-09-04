@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "hmos-multidevice",
+  "version": "1.0.0",
+  "description": "HarmonyOS 多设备适配技能包:折叠屏、屏幕窗口尺寸、避让区、硬件访问、交互方式、自然方向、场景入口等 7 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/"
+  ]
+}

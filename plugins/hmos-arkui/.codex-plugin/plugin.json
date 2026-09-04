@@ -1,0 +1,33 @@
+{
+  "name": "hmos-arkui",
+  "version": "1.0.0",
+  "description": "HarmonyOS ArkUI 界面开发技能包:ArkUI 开发、界面知识检索、MVVM 架构模式等 3 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "hmos",
+    "arkui",
+    "mvvm",
+    "ui"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HarmonyOS ArkUI Skills",
+    "shortDescription": "ArkUI 界面开发、知识检索、MVVM 架构模式等 3 个技能",
+    "longDescription": "HarmonyOS ArkUI 界面开发技能包:ArkUI 声明式界面开发(arkui-develop-skill)、界面知识检索(arkui-knowledge-retriever)、MVVM 架构模式与状态管理(arkui-mvvm-pattern)。",
+    "developerName": "local",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 ArkUI 开发 HarmonyOS 应用界面"
+    ],
+    "brandColor": "#0A84FF",
+    "screenshots": []
+  }
+}

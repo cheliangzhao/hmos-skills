@@ -1,0 +1,39 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin-marketplace.schema.json",
+  "name": "hmos-skills",
+  "owner": {
+    "name": "cheliangzhao"
+  },
+  "plugins": [
+    {
+      "name": "hmos-arkts",
+      "description": "HarmonyOS ArkTS 语言技能包:编译错误修复、语法规范、运行时修复、知识检索、语法检查等 5 个技能。",
+      "source": "./plugins/hmos-arkts"
+    },
+    {
+      "name": "hmos-arkui",
+      "description": "HarmonyOS ArkUI 界面开发技能包:ArkUI 开发、知识检索、MVVM 架构模式等 3 个技能。",
+      "source": "./plugins/hmos-arkui"
+    },
+    {
+      "name": "hmos-multidevice",
+      "description": "HarmonyOS 多设备适配技能包:折叠屏、屏幕窗口、避让区、硬件访问、交互方式、自然方向、场景入口等 7 个技能。",
+      "source": "./plugins/hmos-multidevice"
+    },
+    {
+      "name": "hmos-kits",
+      "description": "HarmonyOS Kit 集成技能包:Push Kit 推送服务集成等 1 个技能。",
+      "source": "./plugins/hmos-kits"
+    },
+    {
+      "name": "hmos-perf",
+      "description": "HarmonyOS 性能/故障分析:卡顿、卡死、性能分析、内存泄漏、fd 泄漏、崩溃、API 故障等 10 个技能。",
+      "source": "./plugins/hmos-perf"
+    },
+    {
+      "name": "hmos-testing",
+      "description": "HarmonyOS 测试技能包:Instrument Test、Local Test(单元/集成测试运行与覆盖率统计)等 2 个技能。",
+      "source": "./plugins/hmos-testing"
+    }
+  ]
+}

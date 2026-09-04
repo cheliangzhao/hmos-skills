@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "hmos-testing",
+  "version": "1.0.0",
+  "description": "HarmonyOS 测试技能包:Instrument Test、Local Test(单元/集成测试运行与覆盖率统计)等 2 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/"
+  ]
+}

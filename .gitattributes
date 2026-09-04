@@ -1,0 +1,5 @@
+# 本仓库刻意不内置大体积运行时二进制(analysis.exe / trace_streamer / llvm-objdump 等),
+# 以避免单文件超 GitHub 100MB 限制与仓库体积膨胀。这些工具由官方 HarmonyOS DFX Skills
+# 仓库以 Git LFS 分发,运行前用 scripts/fetch-official-binaries.sh 按需拉取。
+# 故此处不再声明任何 LFS 文件规则;若日后确有需入库的 LFS 大文件,再在此追加
+#   <path> filter=lfs diff=lfs merge=lfs -text

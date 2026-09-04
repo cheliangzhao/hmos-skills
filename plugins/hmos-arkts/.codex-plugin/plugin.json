@@ -1,0 +1,32 @@
+{
+  "name": "hmos-arkts",
+  "version": "1.0.0",
+  "description": "HarmonyOS ArkTS 语言技能包:编译错误修复、语法规范、运行时修复、语言知识检索、语法检查等 5 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "hmos",
+    "arkts",
+    "typescript"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HarmonyOS ArkTS Skills",
+    "shortDescription": "ArkTS 编译错误修复、语法规范、运行时修复、知识检索、语法检查等 5 个技能",
+    "longDescription": "HarmonyOS ArkTS 语言技能包:ArkTS 编译错误修复(arkts-error-fixes)、语法规范(arkts-grammar-standards)、运行时修复(arkts-runtime-fix)、语言知识检索(arkts-knowledge-retriever)、语法检查(arkts-syntax-checker)。",
+    "developerName": "local",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "修复 HarmonyOS ArkTS 编译错误与语法问题"
+    ],
+    "brandColor": "#0A84FF",
+    "screenshots": []
+  }
+}

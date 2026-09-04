@@ -1,0 +1,7 @@
+# node_modules 一律不入库(技能自带 npm 依赖按需 install)
+node_modules/
+# 官方二进制由 scripts/fetch-official-binaries.sh 按需拉取,不入库
+plugins/hmos-perf/skills/*/scripts/analysis.*
+plugins/hmos-perf/skills/*/scripts/trace_streamer*
+plugins/hmos-perf/skills/hmos-native-memleak-analysis/scripts/trace_streamer*
+plugins/hmos-perf/skills/hmos-perf-analysis/scripts/perf_mcp_server-*.tar.gz

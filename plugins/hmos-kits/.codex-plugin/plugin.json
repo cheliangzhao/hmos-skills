@@ -1,0 +1,32 @@
+{
+  "name": "hmos-kits",
+  "version": "1.0.0",
+  "description": "HarmonyOS Kit 集成技能包:Push Kit 推送服务集成等 1 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "hmos",
+    "push-kit",
+    "kit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HarmonyOS Kit Integration",
+    "shortDescription": "Push Kit 推送服务集成",
+    "longDescription": "HarmonyOS Kit 集成技能包:Push Kit 推送服务集成(push-kit)。未来可并入 account-kit、live-view-kit、scan-kit 等其他华为服务 Kit 技能。",
+    "developerName": "local",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "集成 HarmonyOS 推送等华为服务 Kit"
+    ],
+    "brandColor": "#0A84FF",
+    "screenshots": []
+  }
+}

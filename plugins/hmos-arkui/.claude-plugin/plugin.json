@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "hmos-arkui",
+  "version": "1.0.0",
+  "description": "HarmonyOS ArkUI 界面开发技能包:ArkUI 开发、界面知识检索、MVVM 架构模式等 3 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/"
+  ]
+}

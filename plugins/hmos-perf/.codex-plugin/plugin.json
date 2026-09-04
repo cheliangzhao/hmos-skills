@@ -1,0 +1,34 @@
+{
+  "name": "hmos-perf",
+  "version": "1.1.0",
+  "description": "HarmonyOS 性能/故障分析技能包:卡顿(jank)、卡死(appfreeze)、性能分析(perf)、JS/ArkTS/native 内存泄漏、fd 泄漏、C++/JS 崩溃、API 故障分析等 10 个技能(官方 v1.3.0)。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "hmos",
+    "jank",
+    "memory-leak",
+    "crash",
+    "performance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HarmonyOS Performance Analysis",
+    "shortDescription": "卡顿、卡死、性能分析、内存泄漏、fd 泄漏、崩溃、API 故障分析等 10 个技能",
+    "longDescription": "HarmonyOS 性能与故障分析技能包:卡顿/帧率分析(jank)、应用卡死(appfreeze)、JS 泄漏(jsleak)、ArkTS 内存泄漏(memleak)、native 内存泄漏(native-memleak)、fd 泄漏(fdleak)、C++ 崩溃(cppcrash)、JS 崩溃(jscrash)、API 故障(apifault)。",
+    "developerName": "local",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "分析 HarmonyOS 应用卡顿、内存泄漏或崩溃问题"
+    ],
+    "brandColor": "#FF5F1F",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "hmos-skills",
+  "interface": {
+    "displayName": "HarmonyOS Skills"
+  },
+  "plugins": [
+    {
+      "name": "hmos-arkts",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hmos-arkts"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hmos-arkui",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hmos-arkui"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hmos-multidevice",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hmos-multidevice"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hmos-kits",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hmos-kits"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hmos-perf",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hmos-perf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "hmos-testing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hmos-testing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

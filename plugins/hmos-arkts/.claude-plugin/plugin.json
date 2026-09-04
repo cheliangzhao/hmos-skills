@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "hmos-arkts",
+  "version": "1.0.0",
+  "description": "HarmonyOS ArkTS 语言技能包:编译错误修复、语法规范、运行时修复、语言知识检索、语法检查等 5 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/"
+  ]
+}

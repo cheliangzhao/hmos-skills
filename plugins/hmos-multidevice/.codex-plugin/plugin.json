@@ -1,0 +1,33 @@
+{
+  "name": "hmos-multidevice",
+  "version": "1.0.0",
+  "description": "HarmonyOS 多设备适配技能包:折叠屏、屏幕窗口尺寸、避让区、硬件访问、交互方式、自然方向、场景入口等 7 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "hmos",
+    "multidevice",
+    "foldable",
+    "adaptive"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HarmonyOS Multi-Device Skills",
+    "shortDescription": "折叠屏、屏幕窗口、避让区、硬件访问、交互方式、自然方向、场景入口等 7 个技能",
+    "longDescription": "HarmonyOS 多设备适配技能包:折叠屏状态(fold-state)、屏幕窗口尺寸(screen-window-size)、避让区(avoid-areas)、硬件访问(hardware-access)、交互方式(interaction-methods)、自然方向(natural-orientation)、多设备场景入口(scenario-entry)。",
+    "developerName": "local",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "适配 HarmonyOS 应用到折叠屏、平板等不同设备形态"
+    ],
+    "brandColor": "#0A84FF",
+    "screenshots": []
+  }
+}

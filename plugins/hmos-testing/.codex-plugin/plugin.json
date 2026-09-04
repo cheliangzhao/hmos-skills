@@ -1,0 +1,35 @@
+{
+  "name": "hmos-testing",
+  "version": "1.0.0",
+  "description": "HarmonyOS 测试技能包:Instrument Test、Local Test(单元/集成测试运行与覆盖率统计)等 2 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "hmos",
+    "test",
+    "unit-test",
+    "instrument-test",
+    "local-test",
+    "hypium"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HarmonyOS Testing",
+    "shortDescription": "Instrument / Local Test 测试运行",
+    "longDescription": "HarmonyOS 测试技能包:Instrument Test(模块/套件/用例级运行、覆盖率、ASan 检测,含 ArkTS/JS 与 C++ 测试)与 Local Test(ArkTS/JS 单元测试运行与覆盖率统计)。",
+    "developerName": "local",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "运行 HarmonyOS Instrument/Local Test"
+    ],
+    "brandColor": "#0A84FF",
+    "screenshots": []
+  }
+}

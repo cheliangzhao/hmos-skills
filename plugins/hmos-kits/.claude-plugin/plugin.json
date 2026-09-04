@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "hmos-kits",
+  "version": "1.0.0",
+  "description": "HarmonyOS Kit 集成技能包:Push Kit 推送服务集成等 1 个技能。",
+  "author": {
+    "name": "local"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/"
+  ]
+}
