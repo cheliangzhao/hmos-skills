@@ -15,10 +15,12 @@
 
 ## 技能来源
 
-hmos 系列技能源自华为可靠性技术实验室发布的 **HarmonyOS DFX Skills**:
+本仓库 6 个插件的技能内容来自华为官方 **HarmonyOS 技能**分发的两个互补来源,多数来自 **`devecocli skills`**:
 
-- GitCode: https://gitcode.com/openharmony-sig/developtools_dfx_skills
-- 官方技能名无 `hmos-` 前缀,本仓库统一加了 `hmos-` 前缀;升级技能内容以官方仓库为准。
+- **主要来源 — `devecocli skills`**(官方分发版,`devecocli skills list` / `devecocli skills add <name> <--project>`):涵盖 hmos-arkts 的 knowledge-retriever / syntax-checker、hmos-arkui、hmos-multidevice、hmos-kits(push-kit)、hmos-testing,以及 hmos-perf 的 apifault / appfreeze / cppcrash / fdleak / jscrash / jsleak / memleak / native-memleak。技能名自带 `hmos-` 前缀。
+- **补充来源 — HarmonyOS DFX Skills(GitCode)**:https://gitcode.com/openharmony-sig/developtools_dfx_skills ,是 fault-analysis / code-fix / static-check 的底层仓库,主要对应 hmos-perf 的 jank-analysis 与 perf-analysis、以及 hmos-arkts 的 error-fixes / grammar-standards / runtime-fix(官方 skill 名无 `hmos-` 前缀)。
+
+升级/取源以官方 `devecocli skills` 与上表为准;本仓库是上述技能的按主题分组与双格式插件封装。
 
 ## 关于运行时工具(已精简)
 

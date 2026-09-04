@@ -4,10 +4,11 @@
 
 ## 技能来源
 
-- hmos 系列技能来自华为可靠性技术实验室的 **HarmonyOS DFX Skills**:
-  - GitCode: https://gitcode.com/openharmony-sig/developtools_dfx_skills
-  - 更新技能内容时以官方仓库为准;官方技能名无 `hmos-` 前缀(如 `nativeleak-analysis`),本地统一加了 `hmos-` 前缀。
-  - 也可用 `devecocli skills add --all --path <dir>` 获取官方分发版(devecocli 目录可能滞后于 GitCode,如 apifault/jank,此时以 GitCode 为准)。
+本仓库技能内容来自华为官方 HarmonyOS 技能分发的两个互补来源,**多数来自 `devecocli skills`**:
+
+- **主要来源 — `devecocli skills`**(官方分发版,`devecocli skills list` / `add <name> <--project>`):hmos-arkts 的 knowledge-retriever / syntax-checker、hmos-arkui、hmos-multidevice、hmos-kits(push-kit)、hmos-testing,以及 hmos-perf 的 apifault / appfreeze / cppcrash / fdleak / jscrash / jsleak / memleak / native-memleak。技能名自带 `hmos-` 前缀。
+- **补充来源 — HarmonyOS DFX Skills(GitCode)** https://gitcode.com/openharmony-sig/developtools_dfx_skills (fault-analysis / code-fix / static-check 底层仓库):对应 hmos-perf 的 jank-analysis、perf-analysis,与 hmos-arkts 的 error-fixes / grammar-standards / runtime-fix;官方 skill 名无 `hmos-` 前缀(如 `nativeleak-analysis`),本地统一加 `hmos-`。
+- 更新技能内容时以对应官方源为准(devecocli 或 GitCode);两者内容以各自最新分发对齐。
 - 本仓库是 `FadingLight9291117/claude-codex-plugins` 中 hmos-* 插件的独立副本,由该仓库拆出;Android(android-*) 仍留在原仓库。
 
 ## 官方更新同步流程(必做)
